@@ -30,7 +30,7 @@ local setup = {
     'setup/glow',
     'setup/smart-splits',
     'setup/better-comments',
-    'setup/vim-visual-multi'
+    'setup/vim-visual-multi',
     'setup/transparent'
 }
 
