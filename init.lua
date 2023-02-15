@@ -5,8 +5,6 @@ vim.cmd [[set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab]]
 vim.cmd [[set background=dark]]
 vim.cmd [[colorscheme gruvbox-material]]
  
-vim.o.relativenumber = true
-
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
@@ -15,7 +13,6 @@ vim.api.nvim_set_keymap("n", "<leader>n", ":ASToggle<CR>", {})
 vim.api.nvim_set_keymap('i', 'fj', '<ESC>', { noremap = true })
 vim.api.nvim_set_keymap('n', 'sl', ':qa<CR>', { noremap = true })
 vim.api.nvim_set_keymap('n', 'nh', ':noh<CR>', { noremap = true })
-
 
 local setup = {
     'setup/lualine',
@@ -34,6 +31,7 @@ local setup = {
     'setup/smart-splits',
     'setup/better-comments',
     'setup/vim-visual-multi'
+    'setup/transparent'
 }
 
 require('plugins')

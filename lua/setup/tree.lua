@@ -16,4 +16,8 @@ require("nvim-tree").setup({
     },
 })
 
+<<<<<<< HEAD
 vim.api.nvim_set_keymap('n', '<leader>jf', ':NvimTreeToggle<CR>', { noremap = true })
+=======
+vim.api.nvim_set_keymap('n', 'jf', ':NvimTreeToggle<CR>', { noremap = true })
+>>>>>>> origin/master
