@@ -57,6 +57,16 @@ return require('packer').startup(function()
 
     use "Djancyp/better-comments.nvim"
 
+    use 'mg979/vim-visual-multi'
+
+    use 'sainnhe/everforest'
+
+    use 'morhetz/gruvbox'
+
+    use 'sainnhe/gruvbox-material'
+
+    use 'andweeb/presence.nvim'
+
     use {
         'goolord/alpha-nvim',
         requires = { 'nvim-tree/nvim-web-devicons' },
