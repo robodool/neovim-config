@@ -1,8 +1,6 @@
 return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
 
-    use "olimorris/onedarkpro.nvim"
-
     use {
 	'alvarosevilla95/luatab.nvim', 
 	requires ='kyazdani42/nvim-web-devicons' 

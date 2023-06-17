@@ -1,12 +1,19 @@
-vim.cmd [[set number]]
-vim.cmd [[set cursorline]]
 vim.cmd [[set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab]]
 
 vim.cmd [[set background=dark]]
 vim.cmd [[colorscheme gruvbox-material]]
+
+vim.cmd [[au BufNewFile,BufRead /*.rasi setf css]]
  
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
+
+vim.o.number = true
+vim.o.relativenumber = true
+
+vim.opt.termguicolors = true
+
+vim.o.cursorline = true
 
 vim.g.mapleader = " "
 vim.api.nvim_set_keymap("n", "<leader>n", ":ASToggle<CR>", {})

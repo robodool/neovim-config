@@ -16,7 +16,6 @@ require('lualine').setup {
             winbar = 1000,
         },
         theme = "gruvbox-material",
-        theme = "one_monokai",
     },
     sections = {
         lualine_a = {'mode'},
